@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/login_page.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+      <div class="login-wrapper">
+        <form action="index.html" class="form">
+          <img src="img/avatar.png" alt="">
+          <h2>WELCOME</h2>
+          <div class="input-group">
+            <input type="email" name="loginUser" id="loginUser" required>
+            <label for="loginUser">User Name</label>
+          </div>
+          <div class="input-group">
+            <input type="password" name="loginPassword" id="loginPassword" required>
+            <label for="loginPassword">Password</label>
+          </div>
+          <a href="index.html"><input type="submit" value="Login" class="submit-btn"></a>
+          <a href="#forgot-pw" class="forgot-pw"> Forgot Password?</a>
+        </form>
+    
+        <div id="forgot-pw">
+          <form action="index.html" class="form">
+            <a href="#" class="close">&times;</a>
+            <h2>Reset Password</h2>
+            <div class="input-group">
+              <input type="email" name="email" id="email" required>
+              <label for="email">Email</label>
+            </div>
+            <input type="submit" value="Submit" class="submit-btn">
+          </form>
+    </div>
+    </div>
+    <div>
+      <form action="index.html">
+        <a href="index.html"><input class="Button" type="button" value="SKIP"></a>
+      </form>
+    </div>
+</body>
+</html> 
